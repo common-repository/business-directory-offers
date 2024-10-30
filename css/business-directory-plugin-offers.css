@@ -1,0 +1,84 @@
+.ui-dialog { z-index: 1000 !important ;}
+
+.tsl-bdoffer-title{
+    font-weight: bold;
+    width:100%;
+    text-align: center;
+}
+.tsl-bdoffer-coupon{
+    font-weight: bold;
+    width:100%;
+    text-align: center;
+}
+.tsl-bdoffer-go-to-listing{
+    text-align: right;
+}
+
+#tsl-bdoffers-masonry-grid .gutter-sizer{width:2%;}
+#tsl-bdoffers-masonry-grid .tsl-grid-item{width:31%;margin-bottom:4%;}
+
+@media (max-width:1200px){
+	#tsl-bdoffers-masonry-grid .gutter-sizer{width:4%;}
+	#tsl-bdoffers-masonry-grid .tsl-grid-item{width:48%;}
+}
+
+@media (max-width:768px){
+	#tsl-bdoffers-masonry-grid .gutter-sizer{width:0%;}
+	#tsl-bdoffers-masonry-grid .tsl-grid-item{width:100%;}
+}
+
+.tsl-grid-item{
+    margin-bottom: 10px;
+    border: 1px solid lightgray;
+}
+.tsl-bdoffer-image{
+    border:0;
+    padding-top: 9px;
+}
+.tsl-bdoffer-go-to-listing{
+    color:grey;
+    text-align: center;
+    font-size: .9em;
+}
+
+.tsl-bdoffer-from{
+    color:black;
+}
+
+.tsl-bdoffer-end{
+    color:black;
+}
+
+.tsl-bdoffer-from-value{
+    color:black;
+}
+
+.tsl-bdoffer-end-value{
+    color:black;
+}
+
+.tsl-bdoffer-content{
+    font-size: .8em;
+}
+
+.tsl-bdoffer-grid-item-table {
+    border-collapse: collapse;
+    border: none !important;
+    line-height: 1;
+    margin-bottom: 1em;
+}
+
+.tsl-bdoffer-grid-item-table th {
+    border: none !important;
+}
+
+.tsl-bdoffer-grid-item-table td{
+    border: none !important;
+    padding-bottom:3px;
+    padding-top: 3px;
+}
+
+.tsl-bdoffer-grid-item-table tr{
+    border: none !important;
+}
+
